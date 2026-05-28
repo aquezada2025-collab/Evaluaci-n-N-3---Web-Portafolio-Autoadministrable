@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
 $db   = 'aquezada_db2';
-$user = 'aquezada'; // Usuario por defecto en local
-$pass = '';     // Contraseña por defecto en local
+$user = 'aquezada'; 
+$pass = 'AqX91mQ0#';     
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8", $user, $pass);
