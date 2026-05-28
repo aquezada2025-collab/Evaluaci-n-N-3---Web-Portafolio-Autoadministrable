@@ -1,0 +1,40 @@
+/* ══ INPUTS EN TABLA ══ */
+.panel-table tbody tr td input[type="text"],
+.panel-table tbody tr td input[type="number"],
+.panel-table tbody tr td input[type="url"],
+.panel-table tbody tr td select {
+    background: #0d1117 !important;
+    -webkit-box-shadow: 0 0 0px 1000px #0d1117 inset !important;
+    -webkit-text-fill-color: #e2e8f0 !important;
+    border: 1px solid #2d3748 !important;
+    color: #e2e8f0 !important;
+    padding: 7px 11px !important;
+    border-radius: 6px !important;
+    width: 100%; font-size: .88rem;
+    font-family: 'Segoe UI', sans-serif;
+    transition: border-color .2s;
+    -webkit-appearance: none; appearance: none;
+}
+.panel-table tbody tr td input:focus,
+.panel-table tbody tr td select:focus {
+    border-color: #e91e63 !important; outline: none !important;
+    box-shadow: 0 0 0 3px rgba(233,30,99,.12) !important;
+    -webkit-box-shadow: 0 0 0 3px rgba(233,30,99,.12), 0 0 0px 1000px #0d1117 inset !important;
+}
+.panel-table tbody tr td select option { background: #0d1117; color: #e2e8f0; }
+.panel-table tbody tr td input[type="color"] { -webkit-box-shadow: none !important; box-shadow: none !important; width: 44px !important; height: 32px !important; padding: 2px !important; }
+
+/* Filas alternas */
+.panel-table tbody tr:nth-child(odd)  td { background-color: #141b2d; }
+.panel-table tbody tr:nth-child(even) td { background-color: #0f1521; }
+.panel-table tbody tr:hover           td { background-color: #1a2340 !important; }
+
+/* ══ COLORES INPUT ══ */
+.input-color    { width:60px; height:38px; border:1px solid #3a445d; border-radius:6px; background:#0b0e17; cursor:pointer; padding:2px 4px; }
+.input-color-sm { width:38px; height:30px; border:1px solid #3a445d; border-radius:4px; background:#0b0e17; cursor:pointer; padding:2px; }
+
+/* ══ UTILIDADES ══ */
+.mb-30        { margin-bottom: 24px; }
+.td-id        { color: #6b7a99; font-size: .85rem; }
+.header-count { color: #6b7a99; font-weight: 400; font-size: .85rem; margin-left: 8px; }
+.empty-state  { padding: 40px; text-align: center; color: #6b7a99; }
