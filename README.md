@@ -4,7 +4,7 @@
 Este proyecto es un portafolio web personal, completamente dinámico y autoadministrable, desarrollado desde cero. Su objetivo principal es mostrar la biografía, habilidades, tecnologías dominadas y proyectos realizados de manera profesional[cite: 2, 4, 5, 7]. A diferencia de un portafolio estático, cuenta con un **Panel de Administración (Back-end)** protegido con usuario y contraseña, desde donde se puede realizar un CRUD (Crear, Leer, Actualizar, Eliminar) de toda la información visible en la página sin necesidad de tocar el código fuente[cite: 15, 17, 18, 19, 20]. También incluye un formulario de contacto funcional que envía mensajes directamente al correo del administrador[cite: 3, 6].
 
 ## 🌐 Enlace del Proyecto
-> **[[🔗 HAZ CLIC AQUÍ PARA VER LA PÁGINA EN VIVO](teclab](http://teclab.uct.cl/~aquezada2025))** 
+http://teclab.uct.cl/~aquezada2025
 
 ## 🛠️ Tecnologías Usadas
 El proyecto fue construido utilizando tecnologías puras para garantizar un rendimiento óptimo y control total sobre el código:
